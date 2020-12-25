@@ -1,4 +1,4 @@
-# basic-todo
+# Basic Todo App
 
 ## jQuery
 
