@@ -53,6 +53,8 @@ button:focus {
 
 #input-container {
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 input {
@@ -104,6 +106,10 @@ input:focus {
   }
   #input-container {
     flex-direction: column;
+    align-items: center;
+  }
+  input {
+    width: 230px;
   }
 }
 
