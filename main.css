@@ -21,11 +21,11 @@ body {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 5em;
 }
 
 h2{
-  font-size: 2vw;
+  font-size: 2em;
 }
 
 /* Modernize buttons and input */
@@ -49,6 +49,10 @@ button {
 }
 button:focus {
   outline: 0;
+}
+
+#input-container {
+  display: flex;
 }
 
 input {
@@ -91,6 +95,16 @@ input:focus {
 
 .none {
   display: none;
+}
+
+/* Responsiveness */
+@media (max-width:550px) {
+  #lists {
+    flex-direction: column;
+  }
+  #input-container {
+    flex-direction: column;
+  }
 }
 
 
